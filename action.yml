@@ -1,0 +1,6 @@
+name: 'My First Shared GitHub Action'
+description: 'My First Shared GitHub Action - This will run the hello-world docker container'
+author: 'Rob Earlam'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'

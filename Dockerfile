@@ -1,3 +1,3 @@
-FROM hello-world:linux
+FROM ubuntu:latest
 
-RUN hello-world
+RUN apt-get update

@@ -11,4 +11,4 @@ COPY sitecore.json sitecore.json
 RUN dotnet tool restore
 RUN dotnet sitecore --help
 
-ENTRYPOINT [ "dotnet", "sitecore", $COMMAND ]
+ENTRYPOINT dotnet sitecore $COMMAND

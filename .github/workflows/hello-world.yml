@@ -6,4 +6,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: robearlam/SharedGitHubAction@main
+      - uses: robearlam/action1@main
+      
+      - uses: robearlam/action2@main

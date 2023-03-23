@@ -3,4 +3,4 @@ description: 'My First Shared GitHub Action - This will run the hello-world dock
 author: 'Rob Earlam'
 runs:
   using: 'docker'
-  image: '../Dockerfile'
+  image: 'Dockerfile'

@@ -6,6 +6,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: robearlam/SharedGitHubAction/init@main
-
-      # - uses: robearlam/SharedGitHubAction/action2@main
+      - uses: robearlam/SharedGitHubAction/cloud-login@main
+        with:
+          command: 'cloud --help'

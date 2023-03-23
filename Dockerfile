@@ -1,3 +1,5 @@
+ARG COMMAND
+
 FROM mcr.microsoft.com/dotnet/sdk:6.0-alpine
 
 WORKDIR /
@@ -8,3 +10,5 @@ COPY sitecore.json sitecore.json
 
 RUN dotnet tool restore
 RUN dotnet sitecore --help
+
+ENTRYPOINT [ "dotnet", "sitecore", $COMMAND ]

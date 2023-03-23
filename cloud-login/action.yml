@@ -1,0 +1,10 @@
+name: 'My First Shared GitHub Action'
+description: 'My First Shared GitHub Action - This will run the hello-world docker container'
+author: 'Rob Earlam'
+inputs:
+  command:
+    description: The command to issue to the Sitecore CLI
+    required: true
+runs:
+  using: 'docker'
+  image: '../Dockerfile'
